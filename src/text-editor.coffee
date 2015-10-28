@@ -1420,8 +1420,8 @@ class TextEditor extends Model
   decorationsForScreenRowRange: (startScreenRow, endScreenRow) ->
     @displayBuffer.decorationsForScreenRowRange(startScreenRow, endScreenRow)
 
-  decorationStateForScreenRowRange: (startScreenRow, endScreenRow) ->
-    @displayBuffer.decorationStateForScreenRowRange(startScreenRow, endScreenRow)
+  decorationsStateForScreenRowRange: (startScreenRow, endScreenRow) ->
+    @displayBuffer.decorationsStateForScreenRowRange(startScreenRow, endScreenRow)
 
   # Extended: Get all decorations.
   #
